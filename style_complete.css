@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(153, 145, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 555px;
+    height:380px; 
+    /* width = 1050/2+15+15, height = 350+15+15*/
+
+}
+
+.bg{
+    width: 525px; /*0.5 width and height of background*/
+    height: 350px; 
+    border-radius: 50%;
+    border: rgb(126, 117, 109) solid 15px;
+    background: url('forest copy.jpg');
+    background-position: 100% 0%;
+    animation: moveBg 20s linear infinite;
+    position: absolute;
+
+}
+
+
+.walker{
+    position:absolute;
+    transform: scale(.5);
+    bottom: -50px;
+}
+
+
+@keyframes moveBg{
+    from {
+        background-position: 100% 0%;
+    }
+
+    to{
+        background-position: 0% 0%;
+        /* background-position: 1050px 0px; */
+    }
+}
