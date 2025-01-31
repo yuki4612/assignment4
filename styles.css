@@ -35,8 +35,9 @@ body{
 
 .walker{
     position:absolute;
-    transform: scale(.5);
+    transform: scale(.6) translateX(50px);
     bottom: -50px;
+    
 }
 
 
