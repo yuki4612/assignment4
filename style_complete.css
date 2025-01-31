@@ -25,7 +25,7 @@ body{
     height: 350px; 
     border-radius: 50%;
     border: rgb(126, 117, 109) solid 15px;
-    background: url('forest copy.jpg');
+    background: url('forest.jpg');
     background-position: 100% 0%;
     animation: moveBg 20s linear infinite;
     position: absolute;
